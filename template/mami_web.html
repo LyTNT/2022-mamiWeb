@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Mentor Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <!-- Font Awesome misa bo sung-->
+<!--  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>-->
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <!-- Favicons -->
+  <link href="../static/assets/img/favicon.png" rel="icon">
+  <link href="../static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../static/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="../static/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../static/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File
+  Access the previous folder 1 step-->
+  <link href="../static/assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Mentor - v4.7.0
+  * Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    {% if msg %}
+    <div class="alert alert-danger" role="alert">
+      {{msg}}
+    </div>
+    {% endif %}
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="mami_web.html">Giáo Viên</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="active" href="mami_web.html">Trang chính</a></li>
+          <li><a href="#about">Thông tin</a></li>
+          <li><a href="#why-us">Điểm nổi bật</a></li>
+          <li><a href="#popular-courses">Lớp học</a></li>
+          <li><a href="#trainers">Phụ giảng</a></li>
+
+          <li><a href="#footer">Liên hệ</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="#popular-courses" class="get-started-btn">Xếp lịch bây giờ</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xl-8">
+          <h1>Học Hành Hôm Nay <br>Tương Lai Mai Sau</h1>
+          <h2>Cô sẽ luôn đồng hành cùng các em</h2>
+          <a href="#popular-courses" class="btn-get-started">Xếp lịch bây giờ</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="10">
+              <img src="../static/assets/img/about6.jpg" class="img-fluid" alt="">
+          </div>
+
+
+
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>Thông tin hiện tại của giảng viên</h3>
+            <p class="fst-italic">
+              Sinh ngày xx/xx/1971 <br> Yêu trò mến trẻ <br> Sở thích: Nghe ca nhạc, đi dã ngoại
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> Công tác tại Trường Tiểu học Trường An từ 2012</li>
+              <li><i class="bi bi-check-circle"></i> Kinh nghiệm giảng dạy từ Lớp 1 -> Lớp 5</li>
+              <li><i class="bi bi-check-circle"></i> 10 năm đạt Danh hiệu Giáo viên dạy giỏi</li>
+              <li><i class="bi bi-check-circle"></i> 15 năm đạt Danh hiệu Chiến sĩ thi đua</li>
+            </ul>
+          </div>
+        </div> <!--close div row-->
+
+      </div>
+         </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts section-bg">
+      <div class="container">
+
+        <div class="row counters">
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="28" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Năm Kinh Nghiệm</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="1000" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Học Sinh</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Năm GV Giỏi</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Chiến Sĩ Thi Đua</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+
+    <!-- ======= Why Us Section ======= -->
+<!--    ĐỔI LOGO-->
+    <section id=  "why-us" class="why-us">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="content">
+              <h3>Lớp học của cô có gì?</h3>
+              <p>
+                Lớp học tại gia có nhiều điểm khác biệt so với trường học <br> Đăng ký học cùng cô để trải nghiệm nhé
+              </p>
+              <div class="text-center">
+                <a href="#popular-courses" class="more-btn">Xếp lịch<i class="bx bx-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-receipt"></i>
+                    <h4>Sửa bài mỗi buổi</h4>
+                    <p>Chấm vở sau mỗi buổi học giúp cô theo dõi sát sao tình hình học tập của các em </p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-cube-alt"></i>
+                    <h4>Không dạy đại trà</h4>
+                    <p>Mỗi lớp học của cô dao động từ 5-10 em<br> Thuận tiện để cô quan tâm đến từng em hơn</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-images"></i>
+                    <h4>Nghỉ giữa giờ và Ăn vặt</h4>
+                    <p>Thỉnh thoảng điều này cũng giúp các em thư giãn đầu óc để tiếp tục học bài mới</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+
+
+    <!-- ======= Popular Courses Section ======= -->
+    <section id="popular-courses" class="courses">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Courses</h2>
+          <p>LỚP HỌC PHỔ BIẾN</p>
+        </div>
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="course-item">
+              <img src="../static/assets/img/course-5.jpg" class="img-fluid" alt="...">
+              <div class="course-content h3-title">
+
+                <h3>lỚP 1</h3>
+                <p> Luyện phát âm và Nhận biết mặt chữ<br>Luyện viết</p>
+
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="course-item">
+              <img src="../static/assets/img/course-4.jpg" class="img-fluid" alt="...">
+              <div class="course-content h3-title">
+                <h3>LỚP 2</h3>
+                <p>Giảng dạy theo chương trình chính thống<br>Môn Toán và Tiếng Việt</p>
+
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="course-item">
+              <img src="../static/assets/img/about4.jpg" class="img-fluid" alt="...">
+              <div class="course-content h3-title">
+                <h3>LỚP 3</h3>
+                <p>Giảng dạy theo chương trình chính thống<br>Môn Toán và Tiếng Việt</p>
+
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+
+        </div>
+
+      </div>
+    </section><!-- End Popular Courses Section -->
+
+    <!-- ======= Trainers Section ======= -->
+
+    <section id="trainers" class="trainers">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Family</h2>
+          <p>THÀNH VIÊN GIA ĐÌNH</p>
+        </div>
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="../static/assets/img/trainers/trainer-4.jpg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Con gái</h4>
+                <span>Phụ giảng</span>
+                <p>
+                  Cựu sinh viên Trường THPT Chuyên Quốc Học <br>
+                  Cựu sinh viên Trường ĐH Ngoại Thương HCM
+                </p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="../static/assets/img/trainers/trainer-5.jpg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Con trai</h4>
+                <span>Phụ giảng</span>
+                <p>
+                  Cựu sinh viên Trường THPT Chuyên Quốc Học <br>
+                  Sinh viên Trường ĐH Kiểm Sát HN
+                </p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="../static/assets/img/trainers/trainer-9.jpg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Ông xã</h4>
+                <span>Hỗ trợ lớp học</span>
+                <p>
+                  Người bạn đồng hành đáng tin cậy
+                </p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Trainers Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+      <div class="container contact">
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="ri-map-pin-line"></i>
+                <h4>Địa chỉ:</h4>
+                <p> Đường Minh Mạng, p.Thuỷ Xuân, Huế</p>
+              </div>
+
+              <div class="email">
+                <i class="ri-mail-line"></i>
+                <h4>Email:</h4>
+                <p>phaitruongan@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="ri-phone-line"></i>
+                <h4>Call:</h4>
+                <p>+8490565738x</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form  method="POST" action="/home" >
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Họ tên" required>
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Chủ đề trao đổi" required>
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="5" placeholder="Nội dung tin nhắn" required></textarea>
+                </div>
+
+              <div class="text-center"><button type="submit" class="get-started-btn">Để lại tin nhắn</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../static/assets/vendor/purecounter/purecounter.js"></script>
+  <script src="../static/assets/vendor/aos/aos.js"></script>
+  <script src="../static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../static/assets/vendor/php-email-form/validate.js"></script>
+
+   <!-- Vendor JS Files -->
+
+
+  <script src="../static/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../static/assets/js/main.js"></script>
+
+</body>
+
+</html>
